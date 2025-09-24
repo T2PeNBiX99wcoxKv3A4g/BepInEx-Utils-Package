@@ -15,6 +15,9 @@ jobs:
       
       - name: Download .dll file
         run: wget https://github.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils/releases/latest/download/BepInExUtils.dll
+      
+      - name: Download `CHANGELOG.md` file
+        run: wget https://raw.githubusercontent.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils/refs/heads/master/CHANGELOG.md
 
       - name: Create Archive
         uses: thedoctor0/zip-release@0.7.6
