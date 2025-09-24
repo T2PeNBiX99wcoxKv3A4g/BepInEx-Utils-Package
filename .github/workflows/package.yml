@@ -7,7 +7,7 @@ on:
 
 jobs:
   package:
-    name: Windows Latest Build
+    name: Package files
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
