@@ -19,6 +19,12 @@ jobs:
       - name: Download `CHANGELOG.md` file
         run: wget https://raw.githubusercontent.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils/refs/heads/master/CHANGELOG.md
 
+      - name: Download `README.md` file
+        run: wget https://raw.githubusercontent.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils/refs/heads/master/README.md
+      
+      - name: Download `LICENSE` file
+        run: wget https://raw.githubusercontent.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils/refs/heads/master/LICENSE
+
       - name: Create Archive
         uses: thedoctor0/zip-release@0.7.6
         with:
