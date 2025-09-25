@@ -1,9 +1,8 @@
 {
   "name": "BepinExUtils",
-  "version_number": "0.0.9",
+  "version_number": "0.0.10",
   "website_url": "https://github.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils",
   "description": "Utils for BepinEx",
   "dependencies": [
-    "BepInEx-BepInExPack_Silksong-5.4.2303"
   ]
 }
