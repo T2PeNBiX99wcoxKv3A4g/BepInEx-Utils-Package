@@ -1,6 +1,6 @@
 {
   "name": "BepinExUtils",
-  "version_number": "0.0.11",
+  "version_number": "0.2.2",
   "website_url": "https://github.com/T2PeNBiX99wcoxKv3A4g/BepinEx-Utils",
   "description": "Utils for BepinEx",
   "dependencies": [
